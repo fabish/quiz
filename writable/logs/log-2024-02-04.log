@@ -1,0 +1,87 @@
+INFO - 2024-02-04 02:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 02:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 02:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 02:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-04 02:11:41 --> Undefined variable $tittle
+in APPPATH\Views\templates\login\url.php on line 1.
+ 1 APPPATH\Views\templates\login\url.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\templates\\login\\url.php', 1)
+ 2 APPPATH\Views\welcome_message.php(6): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\templates\\login\\url.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('welcome_message', [], true)
+ 6 APPPATH\Controllers\Session.php(13): view('welcome_message')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Session->exit()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-04 02:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-04 02:16:42 --> Undefined variable $tittle
+in APPPATH\Views\welcome_message.php on line 5.
+ 1 APPPATH\Views\welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Session.php(13): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Session->exit()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-04 02:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-04 02:19:30 --> Undefined variable $tittle
+in APPPATH\Views\welcome_message.php on line 7.
+ 1 APPPATH\Views\welcome_message.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Session.php(13): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Session->exit()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-04 02:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-04 02:19:46 --> Undefined variable $tittle
+in APPPATH\Views\welcome_message.php on line 63.
+ 1 APPPATH\Views\welcome_message.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Session.php(13): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Session->exit()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-04 02:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 02:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 02:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-04 02:21:57 --> Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 177.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('type/admin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 02:21:58 --> Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 177.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('type/admin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-04 02:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 02:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-04 02:25:41 --> Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 177.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('type/admin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-04 02:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 02:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 02:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 02:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 19:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 19:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 19:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 19:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 19:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 19:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 20:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 20:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 20:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 20:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-04 20:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

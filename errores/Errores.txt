@@ -1,0 +1,67 @@
+<script type="text/javascript">
+$(document).ready(function(){
+    alert ("hola mundo");
+    $("#btn_register").click(function(){
+        var pkPhone = $("#phone").val();
+        var name = $("#name").val();
+        var firstName = $("#firstName").val();
+        var lastName = $("#lastName").val();
+        
+        var person = [pkPhone, name, firstName, lastName];
+        alert(person);
+        $.ajax({
+            type: 'POST',
+            url: 'http://wisphub.internet/type/registerAccountAjax', 
+            data: 'data='+person,
+            beforeSend: function(data){
+
+                //$("#infoRespuesta").html(data);
+            },
+            success: function(data){
+                console.log("los datos estan llegando");
+                var person = jQuery.parseJSON(data);
+                console.log("despues de"+person.pkPhone);
+                //$("#infoRespuesta").html(person.length);
+                html = "";
+                html += "<table class='table table-condensed'><thead>";
+                html += "<tr><th>Phone</th><th>Name</th><th>Firstname</th><th>Lastname</th></tr>";
+                html += "</thead><tbody>";
+                
+                    for(var i = 0; i<=person.length; i++){
+                        html += "<tr><td>"+person[i].pkPhone+"</td><td>"+person[i].name+"</td><td>"+person[i].firstName+"</td><td>"+person[i].lastName+"</td></tr>";
+                    }
+                html += "</tbody></table>";
+                $("#infoRespuesta").html(html);
+            },
+            errror: function(xhr, status, error){
+                console.error(xhr);
+            }
+        });
+    
+    });
+});    
+</script>  
+
+
+if (isset($_POST['data'])){
+            $data = explode(",", $_POST['data']);
+            $person = [
+                "pkPhone" => $data[0],
+                "name" => $data[1],
+                "firstName" => $data[2],
+                "lastName" => $data[3],
+
+            ];
+
+
+
+            const opciones = {
+            method :'POST'
+          }
+    fetch('http://wisphub.internet/type/dataAjax')
+    .then(response => response.json())
+    .then(data =>{
+        console.log("datos" + data);
+        var person = jQuery.parseJSON(data);
+        console.log(person);
+    });

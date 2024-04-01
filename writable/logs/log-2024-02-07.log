@@ -1,0 +1,657 @@
+INFO - 2024-02-07 12:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 13:09:14 --> Undefined variable $tittle
+in APPPATH\Views\welcome_message.php on line 5.
+ 1 APPPATH\Views\welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Session.php(13): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Session->exit()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 13:09:14 --> Undefined variable $tittle
+in APPPATH\Views\welcome_message.php on line 5.
+ 1 APPPATH\Views\welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Session.php(13): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Session->exit()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 13:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 13:11:20 --> Undefined variable $title
+in APPPATH\Views\welcome_message.php on line 4.
+ 1 APPPATH\Views\welcome_message.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Session.php(13): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Session->exit()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 13:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 13:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-07 15:19:27 --> mysqli_sql_exception: Table 'users' already exists in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-161209_User.php(55): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-02-07 15:27:39 --> mysqli_sql_exception: Table 'users' already exists in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-161209_User.php(61): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+INFO - 2024-02-07 16:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 16:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 16:02:20 --> Undefined variable $Profession
+in APPPATH\Views\RegisterView.php on line 133.
+ 1 APPPATH\Views\RegisterView.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Profession', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(15): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 16:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 16:12:43 --> Undefined variable $Profession
+in APPPATH\Views\RegisterView.php on line 133.
+ 1 APPPATH\Views\RegisterView.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Profession', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(15): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 16:28:37 --> Undefined property: App\Controllers\RegisterController::$ProfessionModel
+in APPPATH\Controllers\RegisterController.php on line 12.
+ 1 APPPATH\Controllers\RegisterController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\RegisterController::$ProfessionModel', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\RegisterController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 16:29:43 --> Undefined property: App\Controllers\RegisterController::$ProfessionModel
+in APPPATH\Controllers\RegisterController.php on line 19.
+ 1 APPPATH\Controllers\RegisterController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\RegisterController::$ProfessionModel', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\RegisterController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 16:30:15 --> Undefined property: App\Controllers\RegisterController::$ProfessionModel
+in APPPATH\Controllers\RegisterController.php on line 12.
+ 1 APPPATH\Controllers\RegisterController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\RegisterController::$ProfessionModel', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\RegisterController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 16:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 16:52:17 --> Undefined variable $Professiones
+in APPPATH\Views\RegisterView.php on line 132.
+ 1 APPPATH\Views\RegisterView.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Professiones', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 132)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [...], true)
+ 5 APPPATH\Controllers\RegisterController.php(19): view('RegisterView', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 16:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 16:56:00 --> Undefined variable $profesiones
+in APPPATH\Views\RegisterView.php on line 132.
+ 1 APPPATH\Views\RegisterView.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profesiones', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 132)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(18): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 16:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 16:56:46 --> Undefined variable $profesiones
+in APPPATH\Views\RegisterView.php on line 132.
+ 1 APPPATH\Views\RegisterView.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profesiones', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 132)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(18): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 17:00:06 --> Undefined variable $profession
+in APPPATH\Views\RegisterView.php on line 133.
+ 1 APPPATH\Views\RegisterView.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profession', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(15): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:01:39 --> Undefined variable $professionModel
+in APPPATH\Controllers\RegisterController.php on line 12.
+ 1 APPPATH\Controllers\RegisterController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $professionModel', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\RegisterController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:01:50 --> Undefined variable $professionModel
+in APPPATH\Controllers\RegisterController.php on line 12.
+ 1 APPPATH\Controllers\RegisterController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $professionModel', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\RegisterController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:02:41 --> Undefined variable $tittle
+in APPPATH\Views\RegisterView.php on line 6.
+ 1 APPPATH\Views\RegisterView.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(14): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 17:03:01 --> Undefined variable $professions
+in APPPATH\Views\RegisterView.php on line 131.
+ 1 APPPATH\Views\RegisterView.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $professions', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 131)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [...], true)
+ 5 APPPATH\Controllers\RegisterController.php(17): view('RegisterView', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:03:13 --> Undefined variable $tittle
+in APPPATH\Views\RegisterView.php on line 6.
+ 1 APPPATH\Views\RegisterView.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [...], true)
+ 5 APPPATH\Controllers\RegisterController.php(17): view('RegisterView', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 17:03:36 --> Attempt to read property "pkProfession" on array
+in APPPATH\Views\RegisterView.php on line 132.
+ 1 APPPATH\Views\RegisterView.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pkProfession" on array', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 132)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [...], true)
+ 5 APPPATH\Controllers\RegisterController.php(17): view('RegisterView', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 17:09:34 --> Undefined variable $professions
+in APPPATH\Views\RegisterView.php on line 131.
+ 1 APPPATH\Views\RegisterView.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $professions', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 131)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(17): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 17:10:27 --> Undefined variable $profession
+in APPPATH\Views\RegisterView.php on line 131.
+ 1 APPPATH\Views\RegisterView.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profession', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 131)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(17): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 17:11:29 --> Undefined variable $profession
+in APPPATH\Views\RegisterView.php on line 133.
+ 1 APPPATH\Views\RegisterView.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profession', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(17): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 17:18:38 --> Undefined variable $professions
+in APPPATH\Views\RegisterView.php on line 133.
+ 1 APPPATH\Views\RegisterView.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $professions', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(17): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:22:14 --> Undefined variable $professions
+in APPPATH\Controllers\RegisterController.php on line 13.
+ 1 APPPATH\Controllers\RegisterController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $professions', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\RegisterController.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 17:22:35 --> Undefined variable $professions
+in APPPATH\Controllers\RegisterController.php on line 13.
+ 1 APPPATH\Controllers\RegisterController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $professions', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\RegisterController.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 17:23:53 --> Attempt to read property "pkProfession" on array
+in APPPATH\Views\RegisterView.php on line 134.
+ 1 APPPATH\Views\RegisterView.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pkProfession" on array', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 134)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(19): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 17:31:29 --> Undefined array key "professionDescription"
+in APPPATH\Controllers\RegisterController.php on line 58.
+ 1 APPPATH\Controllers\RegisterController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "professionDescription"', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\RegisterController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-07 17:31:56 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(61): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-07 17:31:56 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persons` (`pkPhone`, `name`, `firstName`, `lastName`) VALUES (:pkPhone:, :name:, :firstName:, :lastName:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(61): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 17:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 17:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 17:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-07 17:32:53 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(61): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-07 17:32:53 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persons` (`pkPhone`, `name`, `firstName`, `lastName`) VALUES (:pkPhone:, :name:, :firstName:, :lastName:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(61): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-07 17:35:07 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(61): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-07 17:35:07 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persons` (`pkPhone`, `name`, `firstName`, `lastName`) VALUES (:pkPhone:, :name:, :firstName:, :lastName:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(61): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-07 17:35:07 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(61): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-07 17:35:07 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persons` (`pkPhone`, `name`, `firstName`, `lastName`) VALUES (:pkPhone:, :name:, :firstName:, :lastName:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(61): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 17:37:52 --> Undefined variable $professions
+in APPPATH\Views\RegisterView.php on line 133.
+ 1 APPPATH\Views\RegisterView.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $professions', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(19): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 17:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-07 19:28:27 --> mysqli_sql_exception: Table 'quiz2.professions' doesn't exist in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-07 19:28:27 --> Table 'quiz2.professions' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `professions`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RegisterController.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 19:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 19:28:53 --> Undefined variable $professions
+in APPPATH\Views\RegisterView.php on line 133.
+ 1 APPPATH\Views\RegisterView.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $professions', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(19): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 19:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 19:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 19:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 19:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 19:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 19:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 19:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-07 19:35:37 --> mysqli_sql_exception: Table 'quiz2.professions' doesn't exist in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-07 19:35:37 --> Table 'quiz2.professions' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `professions`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RegisterController.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 19:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-07 19:38:17 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(61): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-07 19:38:17 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persons` (`pkPhone`, `name`, `firstName`, `lastName`) VALUES (:pkPhone:, :name:, :firstName:, :lastName:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(61): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 19:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 19:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-07 19:39:42 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(61): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-07 19:39:42 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persons` (`pkPhone`, `name`, `firstName`, `lastName`) VALUES (:pkPhone:, :name:, :firstName:, :lastName:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(61): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 19:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 19:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-07 19:43:02 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(61): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-07 19:43:02 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persons` (`pkPhone`, `name`, `firstName`, `lastName`) VALUES (:pkPhone:, :name:, :firstName:, :lastName:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(61): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 19:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 19:52:21 --> Undefined variable $profession
+in APPPATH\Views\RegisterView.php on line 133.
+ 1 APPPATH\Views\RegisterView.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profession', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(16): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 19:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 19:52:23 --> Undefined variable $profession
+in APPPATH\Views\RegisterView.php on line 133.
+ 1 APPPATH\Views\RegisterView.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profession', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(16): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 19:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 19:56:10 --> Undefined variable $profession
+in APPPATH\Views\RegisterView.php on line 133.
+ 1 APPPATH\Views\RegisterView.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profession', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(16): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 20:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 20:08:14 --> Undefined variable $profession
+in APPPATH\Views\RegisterView.php on line 133.
+ 1 APPPATH\Views\RegisterView.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profession', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(25): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 20:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 20:08:17 --> Undefined variable $profession
+in APPPATH\Views\RegisterView.php on line 133.
+ 1 APPPATH\Views\RegisterView.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profession', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\RegisterView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('RegisterView', [], true)
+ 5 APPPATH\Controllers\RegisterController.php(25): view('RegisterView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-07 20:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 20:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 20:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

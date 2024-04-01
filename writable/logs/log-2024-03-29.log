@@ -1,0 +1,512 @@
+INFO - 2024-03-29 15:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:18:19 --> No enum constant BaconQrCode\Common\Mode::forAlphaNumeric
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('forAlphaNumeric')
+ 2 APPPATH\Controllers\AdminController.php(34): DASPRiD\Enum\AbstractEnum::__callStatic('forAlphaNumeric', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:18:21 --> No enum constant BaconQrCode\Common\Mode::forAlphaNumeric
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('forAlphaNumeric')
+ 2 APPPATH\Controllers\AdminController.php(34): DASPRiD\Enum\AbstractEnum::__callStatic('forAlphaNumeric', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:26:17 --> No enum constant BaconQrCode\Common\Mode::forAlphaNumeric
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('forAlphaNumeric')
+ 2 APPPATH\Controllers\AdminController.php(34): DASPRiD\Enum\AbstractEnum::__callStatic('forAlphaNumeric', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:26:19 --> No enum constant BaconQrCode\Common\Mode::forAlphaNumeric
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('forAlphaNumeric')
+ 2 APPPATH\Controllers\AdminController.php(34): DASPRiD\Enum\AbstractEnum::__callStatic('forAlphaNumeric', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:27:39 --> No enum constant BaconQrCode\Common\Mode::forAlphanumeric
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('forAlphanumeric')
+ 2 APPPATH\Controllers\AdminController.php(34): DASPRiD\Enum\AbstractEnum::__callStatic('forAlphanumeric', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:28:34 --> No enum constant BaconQrCode\Common\Mode::forAlphanumeric
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('forAlphanumeric')
+ 2 APPPATH\Controllers\AdminController.php(34): DASPRiD\Enum\AbstractEnum::__callStatic('forAlphanumeric', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:44:45 --> syntax error, unexpected token "array", expecting variable
+in APPPATH\Libraries\BaconQrCode\Common\Mode.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:50:41 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Common\ErrorCorrectionLevel.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:52:26 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:53:19 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 16:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 16:00:36 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:06:42 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:11:29 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:12:17 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:15:19 --> Cannot redeclare BaconQrCode\Common\Mode::getCharacterCountBits()
+in APPPATH\Libraries\BaconQrCode\Common\Mode.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-29 17:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:20:21 --> Class BaconQrCode\Common\Mode contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (BaconQrCode\Common\Mode::getCharacterCountBits, BaconQrCode\Common\Mode::getBits)
+in APPPATH\Libraries\BaconQrCode\Common\Mode.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-29 17:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:23:23 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:24:08 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:28:06 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:29:02 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:30:40 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:30:44 --> syntax error, unexpected identifier "int", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:31:48 --> syntax error, unexpected identifier "Mode", expecting variable
+in APPPATH\Libraries\BaconQrCode\Encoder\QrCode.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:34:23 --> Cannot access protected constant BaconQrCode\Common\Mode::ALPHANUMERIC
+in APPPATH\Controllers\AdminController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:35:26 --> No enum constant BaconQrCode\Common\Mode::create
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('create')
+ 2 APPPATH\Controllers\AdminController.php(51): DASPRiD\Enum\AbstractEnum::__callStatic('create', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:38:09 --> Call to protected BaconQrCode\Common\Mode::__construct() from scope App\Controllers\AdminController
+in APPPATH\Controllers\AdminController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:38:48 --> No enum constant BaconQrCode\Common\Mode::create
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('create')
+ 2 APPPATH\Controllers\AdminController.php(51): DASPRiD\Enum\AbstractEnum::__callStatic('create', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:41:26 --> No enum constant BaconQrCode\Common\Mode::create
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('create')
+ 2 APPPATH\Controllers\AdminController.php(51): DASPRiD\Enum\AbstractEnum::__callStatic('create', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:42:13 --> Undefined constant BaconQrCode\Common\Mode::SOME_VALUE
+in APPPATH\Controllers\AdminController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:48:55 --> Undefined constant BaconQrCode\Common\Mode::SOME_VALUE
+in APPPATH\Controllers\AdminController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 17:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 17:49:19 --> No enum constant BaconQrCode\Common\Mode::create
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('create')
+ 2 APPPATH\Controllers\AdminController.php(51): DASPRiD\Enum\AbstractEnum::__callStatic('create', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 18:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 18:21:22 --> No enum constant BaconQrCode\Common\Mode::create
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('create')
+ 2 APPPATH\Controllers\AdminController.php(51): DASPRiD\Enum\AbstractEnum::__callStatic('create', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 18:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 18:27:05 --> No enum constant BaconQrCode\Common\Mode::constants
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('constants')
+ 2 APPPATH\Libraries\BaconQrCode\Common\Mode.php(74): DASPRiD\Enum\AbstractEnum::__callStatic('constants', [])
+ 3 APPPATH\Controllers\AdminController.php(51): BaconQrCode\Common\Mode::create([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 18:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 18:32:24 --> No enum constant BaconQrCode\Common\Mode::ALPHANUMERIC
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('ALPHANUMERIC')
+ 2 APPPATH\Controllers\AdminController.php(51): DASPRiD\Enum\AbstractEnum::__callStatic('ALPHANUMERIC', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 18:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 18:39:20 --> No enum constant BaconQrCode\Common\Mode::ALPHANUMERIC
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('ALPHANUMERIC')
+ 2 APPPATH\Controllers\AdminController.php(51): DASPRiD\Enum\AbstractEnum::__callStatic('ALPHANUMERIC', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 22:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 22:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 22:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 22:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 22:06:34 --> require_once(../BaconQrCode/Common/Mode.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\AdminController.php on line 20.
+ 1 APPPATH\Controllers\AdminController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(../BaconQrCode/Common/Mode.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php', 20)
+ 2 APPPATH\Controllers\AdminController.php(20): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 6 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 7 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 22:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 22:06:48 --> require_once(./BaconQrCode/Common/Mode.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\AdminController.php on line 20.
+ 1 APPPATH\Controllers\AdminController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(./BaconQrCode/Common/Mode.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php', 20)
+ 2 APPPATH\Controllers\AdminController.php(20): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+ 6 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 7 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 22:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 22:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 22:12:08 --> No enum constant BaconQrCode\Common\Mode::ALPHANUMERIC
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('ALPHANUMERIC')
+ 2 APPPATH\Controllers\AdminController.php(51): DASPRiD\Enum\AbstractEnum::__callStatic('ALPHANUMERIC', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 22:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 22:21:25 --> No enum constant BaconQrCode\Common\Mode::ALPHANUMERIC
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('ALPHANUMERIC')
+ 2 APPPATH\Controllers\AdminController.php(51): DASPRiD\Enum\AbstractEnum::__callStatic('ALPHANUMERIC', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 22:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 22:31:27 --> Call to protected BaconQrCode\Common\Mode::__construct() from scope App\Controllers\AdminController
+in APPPATH\Controllers\AdminController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 22:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 22:35:08 --> Call to protected BaconQrCode\Common\Mode::__construct() from scope App\Controllers\AdminController
+in APPPATH\Controllers\AdminController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 22:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 22:36:03 --> BaconQrCode\Common\Mode::create(): Argument #1 ($modeType) must be of type int, array given, called in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 51
+in APPPATH\Libraries\BaconQrCode\Common\Mode.php on line 43.
+ 1 APPPATH\Controllers\AdminController.php(51): BaconQrCode\Common\Mode::create([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 22:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 22:45:56 --> No enum constant BaconQrCode\Common\Mode::ALPHANUMERIC
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('ALPHANUMERIC')
+ 2 APPPATH\Controllers\AdminController.php(51): DASPRiD\Enum\AbstractEnum::__callStatic('ALPHANUMERIC', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 22:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 22:59:47 --> No enum constant BaconQrCode\Common\Mode::ALPHANUMERIC
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('ALPHANUMERIC')
+ 2 APPPATH\Controllers\AdminController.php(51): DASPRiD\Enum\AbstractEnum::__callStatic('ALPHANUMERIC', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:07:44 --> BaconQrCode\Common\Mode::create(): Argument #1 ($modeType) must be of type int, array given, called in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 51
+in APPPATH\Libraries\BaconQrCode\Common\Mode.php on line 43.
+ 1 APPPATH\Controllers\AdminController.php(51): BaconQrCode\Common\Mode::create([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:08:40 --> Invalid mode type
+in APPPATH\Libraries\BaconQrCode\Common\Mode.php on line 52.
+ 1 APPPATH\Controllers\AdminController.php(51): BaconQrCode\Common\Mode::create(2)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:14:22 --> BaconQrCode\Common\Mode::create(): Argument #1 ($modeType) must be of type int, array given, called in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 51
+in APPPATH\Libraries\BaconQrCode\Common\Mode.php on line 43.
+ 1 APPPATH\Controllers\AdminController.php(51): BaconQrCode\Common\Mode::create([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:14:48 --> BaconQrCode\Common\Mode::create(): Argument #1 ($modeType) must be of type int, array given, called in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 51
+in APPPATH\Libraries\BaconQrCode\Common\Mode.php on line 43.
+ 1 APPPATH\Controllers\AdminController.php(51): BaconQrCode\Common\Mode::create([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:15:24 --> BaconQrCode\Common\Mode::create(): Argument #1 ($modeType) must be of type int, array given, called in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 51
+in APPPATH\Libraries\BaconQrCode\Common\Mode.php on line 43.
+ 1 APPPATH\Controllers\AdminController.php(51): BaconQrCode\Common\Mode::create([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:15:48 --> Invalid mode type
+in APPPATH\Libraries\BaconQrCode\Common\Mode.php on line 52.
+ 1 APPPATH\Controllers\AdminController.php(51): BaconQrCode\Common\Mode::create(1)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:15:56 --> Undefined array key 10
+in APPPATH\Controllers\AdminController.php on line 51.
+ 1 APPPATH\Controllers\AdminController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 10', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:16:06 --> BaconQrCode\Common\Mode::create(): Argument #1 ($modeType) must be of type int, array given, called in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 51
+in APPPATH\Libraries\BaconQrCode\Common\Mode.php on line 43.
+ 1 APPPATH\Controllers\AdminController.php(51): BaconQrCode\Common\Mode::create([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:25:00 --> No enum constant BaconQrCode\Common\Mode::NUMERIC
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('NUMERIC')
+ 2 APPPATH\Controllers\AdminController.php(51): DASPRiD\Enum\AbstractEnum::__callStatic('NUMERIC', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:26:27 --> Call to protected BaconQrCode\Common\ErrorCorrectionLevel::__construct() from scope App\Controllers\AdminController
+in APPPATH\Controllers\AdminController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:26:30 --> Call to protected BaconQrCode\Common\ErrorCorrectionLevel::__construct() from scope App\Controllers\AdminController
+in APPPATH\Controllers\AdminController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:31:40 --> Undefined constant BaconQrCode\Common\ErrorCorrectionLevel::MEDIUM
+in APPPATH\Controllers\AdminController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:33:26 --> Cannot access protected constant BaconQrCode\Common\ErrorCorrectionLevel::M
+in APPPATH\Controllers\AdminController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 23:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:33:46 --> BaconQrCode\Common\ErrorCorrectionLevel::forBits(): Argument #1 ($bits) must be of type int, array given, called in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 54
+in APPPATH\Libraries\BaconQrCode\Common\ErrorCorrectionLevel.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(54): BaconQrCode\Common\ErrorCorrectionLevel::forBits([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

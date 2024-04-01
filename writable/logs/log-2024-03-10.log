@@ -1,0 +1,90 @@
+INFO - 2024-03-10 15:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 15:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 15:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 16:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 16:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 16:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 16:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 16:00:52 --> Call to undefined function App\Controllers\generate_qr_code()
+in APPPATH\Controllers\AdminController.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR('json')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 16:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 16:01:58 --> Call to undefined function App\Controllers\generate_qr_code()
+in APPPATH\Controllers\AdminController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR('json')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 16:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 16:03:09 --> Call to undefined function App\Controllers\generate_qr_code()
+in APPPATH\Controllers\AdminController.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR('json')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 16:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 16:04:42 --> Call to undefined function App\Controllers\generate_qr_code()
+in APPPATH\Controllers\AdminController.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR('json')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 16:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 16:12:25 --> Call to undefined function App\Controllers\generate_qr_code()
+in APPPATH\Controllers\AdminController.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR('json')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 16:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 16:14:39 --> Call to undefined function App\Controllers\generate_qr_code()
+in APPPATH\Controllers\AdminController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR('json')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 16:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 16:15:59 --> Call to undefined function App\Controllers\generate_qr_code()
+in APPPATH\Controllers\AdminController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR('json')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 16:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 16:21:34 --> Call to undefined function App\Controllers\generate_qr_code()
+in APPPATH\Controllers\AdminController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR('json')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 16:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 16:25:07 --> Call to undefined function App\Controllers\generate_qr_code()
+in APPPATH\Controllers\AdminController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR('json')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 16:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 16:36:58 --> Class "App\Controllers\QrCode" not found
+in APPPATH\Controllers\AdminController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generar('https:', 'www.google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 16:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 16:37:30 --> Class "SimpleSoftwareIO\QrCode\QrCode" not found
+in APPPATH\Controllers\AdminController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generar('https:', 'www.google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 18:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 18:26:10 --> Class "SimpleSoftwareIO\QrCode\QrCode" not found
+in APPPATH\Controllers\AdminController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generar('https:', 'www.google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

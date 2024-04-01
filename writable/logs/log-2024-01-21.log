@@ -1,0 +1,135 @@
+ERROR - 2024-01-21 18:08:27 --> mysqli_sql_exception: Duplicate entry '4294967295' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#6 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-01-21 18:10:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, ?, ?, ?)' at line 1 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO per...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO per...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO per...')
+#3 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(19): CodeIgniter\Database\BaseConnection->query('INSERT INTO per...', Array)
+#4 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#5 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-01-21 18:11:22 --> mysqli_sql_exception: Duplicate entry '4294967295' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO per...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO per...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO per...')
+#3 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(19): CodeIgniter\Database\BaseConnection->query('INSERT INTO per...', Array)
+#4 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#5 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-01-21 18:12:27 --> mysqli_sql_exception: Duplicate entry '4294967295' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO per...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO per...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO per...')
+#3 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(19): CodeIgniter\Database\BaseConnection->query('INSERT INTO per...', Array)
+#4 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#5 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-01-21 18:13:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, ?, ?, ?)' at line 1 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO per...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO per...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO per...')
+#3 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(19): CodeIgniter\Database\BaseConnection->query('INSERT INTO per...', Array)
+#4 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#5 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-01-21 18:16:22 --> mysqli_sql_exception: Duplicate entry '4294967295' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO per...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO per...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO per...')
+#3 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(19): CodeIgniter\Database\BaseConnection->query('INSERT INTO per...', Array)
+#4 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#5 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-01-21 18:18:15 --> mysqli_sql_exception: Duplicate entry '4294967295' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#6 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-01-21 18:19:00 --> mysqli_sql_exception: Duplicate entry '4294967295' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO per...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO per...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO per...')
+#3 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(19): CodeIgniter\Database\BaseConnection->query('INSERT INTO per...', Array)
+#4 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#5 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-01-21 18:20:15 --> mysqli_sql_exception: Duplicate entry '4294967295' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO per...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO per...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO per...')
+#3 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(19): CodeIgniter\Database\BaseConnection->query('INSERT INTO per...', Array)
+#4 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#5 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-01-21 18:23:12 --> mysqli_sql_exception: Duplicate entry '4294967295' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#6 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-01-21 23:17:18 --> mysqli_sql_exception: Duplicate entry '4294967295' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO per...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO per...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO per...')
+#3 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(19): CodeIgniter\Database\BaseConnection->query('INSERT INTO per...', Array)
+#4 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#5 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}

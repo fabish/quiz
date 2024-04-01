@@ -1,0 +1,38 @@
+INFO - 2024-04-01 00:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 00:02:09 --> Typed property BaconQrCode\Encoder\Writer\Png::$height must not be accessed before initialization
+in APPPATH\Libraries\BaconQrCode\Png.php on line 53.
+ 1 APPPATH\Controllers\AdminController.php(73): BaconQrCode\Encoder\Writer\Png->render(Object(BaconQrCode\Encoder\QrCode))
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 00:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 00:03:51 --> Too few arguments to function BaconQrCode\Encoder\Writer\Png::__construct(), 0 passed in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 64 and exactly 1 expected
+in APPPATH\Libraries\BaconQrCode\Png.php on line 15.
+ 1 APPPATH\Controllers\AdminController.php(64): BaconQrCode\Encoder\Writer\Png->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 00:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 00:05:10 --> Undefined variable $imageData
+in APPPATH\Views\QRView.php on line 12.
+ 1 APPPATH\Views\QRView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageData', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\QRView.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\QRView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('QRView', [], true)
+ 5 APPPATH\Controllers\AdminController.php(81): view('QRView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 00:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 00:07:36 --> Undefined variable $image
+in APPPATH\Controllers\AdminController.php on line 77.
+ 1 APPPATH\Controllers\AdminController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 00:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

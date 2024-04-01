@@ -1,0 +1,199 @@
+INFO - 2024-03-31 19:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 19:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 19:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 19:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 19:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:44:19 --> No enum constant BaconQrCode\Common\ErrorCorrectionLevel::M
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('M')
+ 2 APPPATH\Libraries\BaconQrCode\Common\ErrorCorrectionLevel.php(37): DASPRiD\Enum\AbstractEnum::__callStatic('M', [])
+ 3 APPPATH\Controllers\AdminController.php(54): BaconQrCode\Common\ErrorCorrectionLevel::forBits([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:44:21 --> No enum constant BaconQrCode\Common\ErrorCorrectionLevel::M
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('M')
+ 2 APPPATH\Libraries\BaconQrCode\Common\ErrorCorrectionLevel.php(37): DASPRiD\Enum\AbstractEnum::__callStatic('M', [])
+ 3 APPPATH\Controllers\AdminController.php(54): BaconQrCode\Common\ErrorCorrectionLevel::forBits([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:45:29 --> Class "DASPRiD\Enum\AbstractEnum" not found
+in APPPATH\Libraries\BaconQrCode\Common\Mode.php on line 22.
+ 1 APPPATH\Controllers\AdminController.php(20): require_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 6 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 7 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:46:41 --> Cannot access protected constant BaconQrCode\Common\ErrorCorrectionLevel::M
+in APPPATH\Controllers\AdminController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:48:31 --> Cannot access protected constant BaconQrCode\Common\ErrorCorrectionLevel::L
+in APPPATH\Controllers\AdminController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:48:54 --> No enum constant BaconQrCode\Common\ErrorCorrectionLevel::L
+in FCPATH\vendor\dasprid\enum\src\AbstractEnum.php on line 82.
+ 1 FCPATH\vendor\dasprid\enum\src\AbstractEnum.php(58): DASPRiD\Enum\AbstractEnum::valueOf('L')
+ 2 APPPATH\Libraries\BaconQrCode\Common\ErrorCorrectionLevel.php(39): DASPRiD\Enum\AbstractEnum::__callStatic('L', [])
+ 3 APPPATH\Controllers\AdminController.php(54): BaconQrCode\Common\ErrorCorrectionLevel::forBits([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:49:01 --> Cannot access protected constant BaconQrCode\Common\ErrorCorrectionLevel::L
+in APPPATH\Controllers\AdminController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:52:01 --> BaconQrCode\Common\ErrorCorrectionLevel::__construct(): Argument #1 ($bits) must be of type int, array given, called in C:\xampp\htdocs\quiz\app\Libraries\BaconQrCode\Common\ErrorCorrectionLevel.php on line 28
+in APPPATH\Libraries\BaconQrCode\Common\ErrorCorrectionLevel.php on line 24.
+ 1 APPPATH\Libraries\BaconQrCode\Common\ErrorCorrectionLevel.php(28): BaconQrCode\Common\ErrorCorrectionLevel->__construct([...])
+ 2 APPPATH\Controllers\AdminController.php(54): BaconQrCode\Common\ErrorCorrectionLevel::getL()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:52:54 --> Call to private BaconQrCode\Common\Version::__construct() from scope App\Controllers\AdminController
+in APPPATH\Controllers\AdminController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:54:15 --> Call to undefined method BaconQrCode\Common\Version::getDefault()
+in APPPATH\Controllers\AdminController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:55:08 --> Call to private BaconQrCode\Common\Version::__construct() from scope App\Controllers\AdminController
+in APPPATH\Controllers\AdminController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:55:13 --> Call to private BaconQrCode\Common\Version::__construct() from scope App\Controllers\AdminController
+in APPPATH\Controllers\AdminController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:55:20 --> Call to private BaconQrCode\Common\Version::__construct() from scope App\Controllers\AdminController
+in APPPATH\Controllers\AdminController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 19:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 19:59:38 --> Too few arguments to function BaconQrCode\Encoder\ByteMatrix::__construct(), 0 passed in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 58 and exactly 2 expected
+in APPPATH\Libraries\BaconQrCode\Encoder\ByteMatrix.php on line 23.
+ 1 APPPATH\Controllers\AdminController.php(58): BaconQrCode\Encoder\ByteMatrix->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 20:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 20:01:44 --> Too few arguments to function BaconQrCode\Encoder\QrCode::__construct(), 3 passed in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 58 and exactly 5 expected
+in APPPATH\Libraries\BaconQrCode\Encoder\QrCode.php on line 30.
+ 1 APPPATH\Controllers\AdminController.php(58): BaconQrCode\Encoder\QrCode->__construct(Object(BaconQrCode\Common\Mode), Object(BaconQrCode\Common\ErrorCorrectionLevel), Object(BaconQrCode\Common\Version))
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 20:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 20:04:08 --> Class "BaconQrCode\Encoder\Writer\Png" not found
+in APPPATH\Controllers\AdminController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 20:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 20:04:54 --> Class "BaconQrCode\Encoder\Writer\Png" not found
+in APPPATH\Controllers\AdminController.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 20:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 20:05:37 --> Class "BaconQrCode\Encoder\Writer\Png" not found
+in APPPATH\Controllers\AdminController.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 20:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 20:07:04 --> Class "BaconQrCode\Encoder\Writer\Png" not found
+in APPPATH\Controllers\AdminController.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 20:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 20:08:58 --> Class "BaconQrCode\Encoder\Writer\Png" not found
+in APPPATH\Controllers\AdminController.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 20:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 20:09:47 --> Class "BaconQrCode\Encoder\Writer\Png" not found
+in APPPATH\Controllers\AdminController.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 20:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 20:16:57 --> Class "BaconQrCode\Encoder\Writer\Png" not found
+in APPPATH\Controllers\AdminController.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 20:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 20:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 23:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 23:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 23:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 23:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 23:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 23:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 23:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-31 23:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 23:54:45 --> Class "App\Controllers\PngRenderer" not found
+in APPPATH\Controllers\AdminController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-31 23:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-31 23:55:11 --> Call to undefined method BaconQrCode\Encoder\Writer\Png::setForegroundColor()
+in APPPATH\Controllers\AdminController.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

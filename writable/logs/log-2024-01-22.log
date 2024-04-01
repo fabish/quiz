@@ -1,0 +1,59 @@
+ERROR - 2024-01-22 15:42:00 --> mysqli_sql_exception: Duplicate entry '4294967295' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#6 C:\xampp\htdocs\quiz\app\Database\Seeds\TestSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\TestSeeder->run()
+#8 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#9 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#10 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#11 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2024-01-22 15:45:19 --> mysqli_sql_exception: Unknown column 'pkPhone' in 'field list' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO lev...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO lev...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO lev...')
+#3 C:\xampp\htdocs\quiz\app\Database\Seeds\LevelSeeder.php(17): CodeIgniter\Database\BaseConnection->query('INSERT INTO lev...', Array)
+#4 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\LevelSeeder->run()
+#5 C:\xampp\htdocs\quiz\app\Database\Seeds\TestSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\TestSeeder->run()
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-22 15:45:39 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `le...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `le...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `le...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `le...', Array, false)
+#4 C:\xampp\htdocs\quiz\app\Database\Seeds\LevelSeeder.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\LevelSeeder->run()
+#6 C:\xampp\htdocs\quiz\app\Database\Seeds\TestSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\TestSeeder->run()
+#8 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#9 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#10 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#11 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2024-01-22 15:46:06 --> mysqli_sql_exception: Duplicate entry '2' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `le...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `le...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `le...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `le...', Array, false)
+#4 C:\xampp\htdocs\quiz\app\Database\Seeds\LevelSeeder.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\LevelSeeder->run()
+#6 C:\xampp\htdocs\quiz\app\Database\Seeds\TestSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\TestSeeder->run()
+#8 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#9 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#10 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#11 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}

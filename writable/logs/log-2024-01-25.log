@@ -1,0 +1,498 @@
+ERROR - 2024-01-25 03:34:38 --> mysqli_sql_exception: Invalid default value for 'create_ad' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(55): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 03:41:56 --> mysqli_sql_exception: Invalid default value for 'created_at' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(47): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 13:37:11 --> mysqli_sql_exception: Invalid default value for 'updated_at' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(48): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 13:38:00 --> mysqli_sql_exception: Invalid default value for 'create_ad' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(56): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 13:39:38 --> mysqli_sql_exception: Can't create table `quiz2`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(57): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 13:41:05 --> mysqli_sql_exception: Can't create table `quiz2`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(57): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:11:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(58): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:12:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(56): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:14:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(57): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:15:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(55): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-01-25 15:16:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(54): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-01-25 15:18:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	`updated_at` datetime NOT NULL,
+	CONSTRAINT `pk_persons` PRIMARY KEY(`...' at line 6 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(45): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-01-25 15:18:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	`updated_at` datetime NOT NULL,
+	CONSTRAINT `pk_persons` PRIMARY KEY(`...' at line 6 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(45): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-01-25 15:18:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	`updated_at` datetime NOT NULL,
+	CONSTRAINT `pk_persons` PRIMARY KEY(`...' at line 6 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(45): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:19:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(54): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:20:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(54): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:21:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(54): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:25:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(57): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:27:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(63): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:28:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(63): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:31:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NULL,
+	`password` VARCHAR(2...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-25-022600_User.php(62): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:45:08 --> mysqli_sql_exception: Can't create table `quiz2`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(105): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:46:09 --> mysqli_sql_exception: Can't create table `quiz2`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(103): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:47:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` BIGINT(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(103): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:49:44 --> mysqli_sql_exception: Can't create table `quiz2`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(102): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:52:23 --> mysqli_sql_exception: Can't create table `quiz2`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(101): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:54:38 --> mysqli_sql_exception: Can't create table `quiz2`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(101): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:57:31 --> mysqli_sql_exception: Table 'persons' already exists in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(40): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 15:58:04 --> mysqli_sql_exception: Can't create table `quiz2`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(109): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-25 16:00:25 --> mysqli_sql_exception: Can't create table `quiz2`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(109): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-01-25 16:02:41 --> mysqli_sql_exception: Table 'persons' already exists in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(40): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-01-25 16:03:39 --> mysqli_sql_exception: Can't create table `quiz2`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(110): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}

@@ -1,0 +1,26 @@
+ERROR - 2024-01-19 14:23:43 --> mysqli_sql_exception: Unknown column 'aPaterno' in 'field list' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-19 14:23:43 --> Unknown column 'aPaterno' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `persons` (`nombre`, `aPaterno`, `aMaterno`, `Genero`, `edad`) VALUES (:nombre:, :aPaterno:, :aMaterno:, :Genero:, :edad:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(38): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,650 @@
+INFO - 2024-03-20 02:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 02:31:15 --> CodeIgniter\HTTP\Response::download(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 58
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 790.
+ 1 APPPATH\Controllers\AdminController.php(58): CodeIgniter\HTTP\Response->download(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->descargarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 02:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 02:32:53 --> CodeIgniter\HTTP\Response::download(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 58
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 790.
+ 1 APPPATH\Controllers\AdminController.php(58): CodeIgniter\HTTP\Response->download(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->descargarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 02:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 02:32:58 --> CodeIgniter\HTTP\Response::download(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\quiz\app\Controllers\AdminController.php on line 58
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 790.
+ 1 APPPATH\Controllers\AdminController.php(58): CodeIgniter\HTTP\Response->download(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->descargarQR()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 02:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 02:33:01 --> Undefined variable $qrCodeFile
+in APPPATH\Views\QRView.php on line 15.
+ 1 APPPATH\Views\QRView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $qrCodeFile', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\QRView.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\QRView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('QRView', [], true)
+ 5 APPPATH\Controllers\AdminController.php(51): view('QRView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 02:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 02:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:16:36 --> require_once(/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\AdminController.php on line 10.
+ 1 APPPATH\Controllers\AdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php', 10)
+ 2 APPPATH\Controllers\AdminController.php(10): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 7 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 19:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:18:46 --> Undefined variable $texto
+in APPPATH\Views\QRView.php on line 13.
+ 1 APPPATH\Views\QRView.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $texto', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\QRView.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\QRView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('QRView', [], true)
+ 5 APPPATH\Controllers\AdminController.php(31): view('QRView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 19:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:19:52 --> Undefined variable $texto
+in APPPATH\Views\QRView.php on line 13.
+ 1 APPPATH\Views\QRView.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $texto', 'C:\\xampp\\htdocs\\quiz\\app\\Views\\QRView.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\QRView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('QRView', [], true)
+ 5 APPPATH\Controllers\AdminController.php(31): view('QRView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->generarQR()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 19:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:31:04 --> require_once(/./vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\AdminController.php on line 10.
+ 1 APPPATH\Controllers\AdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/./vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php', 10)
+ 2 APPPATH\Controllers\AdminController.php(10): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 7 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 19:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:31:44 --> require_once(/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\AdminController.php on line 10.
+ 1 APPPATH\Controllers\AdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php', 10)
+ 2 APPPATH\Controllers\AdminController.php(10): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 7 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 19:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:31:59 --> require_once(\vendor\autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\AdminController.php on line 10.
+ 1 APPPATH\Controllers\AdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(\\vendor\\autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php', 10)
+ 2 APPPATH\Controllers\AdminController.php(10): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 7 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-20 19:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-20 19:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:35:19 --> include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\vendor\\composer\\ClassLoader.php', 576)
+ 2 FCPATH\vendor\composer\ClassLoader.php(576): include()
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php')
+ 4 APPPATH\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Controller')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 8 APPPATH\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+10 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+11 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+12 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+13 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+14 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 19:35:19 --> Uncaught ErrorException: include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Debug/ExceptionHandler.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php:576
+Stack trace:
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Config\Exceptions.php(102): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Deb...')
+#4 C:\xampp\htdocs\quiz\system\Debug\Exceptions.php(147): Config\Exceptions->handler(500, Object(ErrorException))
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+【Previous Exception】
+ErrorException
+include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Con...')
+#4 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 C:\xampp\htdocs\quiz\app\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#11 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#12 C:\xampp\htdocs\quiz\system\CodeIgniter.php(900): class_exists('\\App\\Controller...', true)
+#13 C:\xampp\htdocs\quiz\system\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+#14 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#16 {main}
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-20 19:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:35:30 --> include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\vendor\\composer\\ClassLoader.php', 576)
+ 2 FCPATH\vendor\composer\ClassLoader.php(576): include()
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php')
+ 4 APPPATH\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Controller')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 8 APPPATH\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+10 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+11 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+12 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+13 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+14 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 19:35:31 --> Uncaught ErrorException: include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Debug/ExceptionHandler.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php:576
+Stack trace:
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Config\Exceptions.php(102): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Deb...')
+#4 C:\xampp\htdocs\quiz\system\Debug\Exceptions.php(147): Config\Exceptions->handler(500, Object(ErrorException))
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+【Previous Exception】
+ErrorException
+include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Con...')
+#4 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 C:\xampp\htdocs\quiz\app\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#11 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#12 C:\xampp\htdocs\quiz\system\CodeIgniter.php(900): class_exists('\\App\\Controller...', true)
+#13 C:\xampp\htdocs\quiz\system\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+#14 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#16 {main}
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-20 19:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:50:46 --> include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\vendor\\composer\\ClassLoader.php', 576)
+ 2 FCPATH\vendor\composer\ClassLoader.php(576): include()
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php')
+ 4 APPPATH\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Controller')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 7 APPPATH\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\BaseController')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+10 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+11 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+12 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 19:50:46 --> Uncaught ErrorException: include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Debug/ExceptionHandler.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php:576
+Stack trace:
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Config\Exceptions.php(102): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Deb...')
+#4 C:\xampp\htdocs\quiz\system\Debug\Exceptions.php(147): Config\Exceptions->handler(500, Object(ErrorException))
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+【Previous Exception】
+ErrorException
+include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Con...')
+#4 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\quiz\app\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers...')
+#7 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers...')
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(900): class_exists('\\App\\Controller...', true)
+#11 C:\xampp\htdocs\quiz\system\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+#12 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-20 19:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:50:49 --> include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\vendor\\composer\\ClassLoader.php', 576)
+ 2 FCPATH\vendor\composer\ClassLoader.php(576): include()
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php')
+ 4 APPPATH\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Controller')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 7 APPPATH\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\BaseController')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+10 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+11 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+12 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 19:50:49 --> Uncaught ErrorException: include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Debug/ExceptionHandler.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php:576
+Stack trace:
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Config\Exceptions.php(102): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Deb...')
+#4 C:\xampp\htdocs\quiz\system\Debug\Exceptions.php(147): Config\Exceptions->handler(500, Object(ErrorException))
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+【Previous Exception】
+ErrorException
+include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Con...')
+#4 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\quiz\app\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers...')
+#7 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers...')
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(900): class_exists('\\App\\Controller...', true)
+#11 C:\xampp\htdocs\quiz\system\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+#12 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-20 19:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:50:50 --> include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\vendor\\composer\\ClassLoader.php', 576)
+ 2 FCPATH\vendor\composer\ClassLoader.php(576): include()
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php')
+ 4 APPPATH\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Controller')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 7 APPPATH\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\BaseController')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+10 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+11 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+12 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 19:50:50 --> Uncaught ErrorException: include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Debug/ExceptionHandler.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php:576
+Stack trace:
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Config\Exceptions.php(102): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Deb...')
+#4 C:\xampp\htdocs\quiz\system\Debug\Exceptions.php(147): Config\Exceptions->handler(500, Object(ErrorException))
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+【Previous Exception】
+ErrorException
+include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Con...')
+#4 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\quiz\app\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers...')
+#7 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers...')
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(900): class_exists('\\App\\Controller...', true)
+#11 C:\xampp\htdocs\quiz\system\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+#12 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-20 19:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:50:52 --> include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\vendor\\composer\\ClassLoader.php', 576)
+ 2 FCPATH\vendor\composer\ClassLoader.php(576): include()
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php')
+ 4 APPPATH\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Controller')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 7 APPPATH\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\BaseController')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+10 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+11 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+12 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 19:50:52 --> Uncaught ErrorException: include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Debug/ExceptionHandler.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php:576
+Stack trace:
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Config\Exceptions.php(102): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Deb...')
+#4 C:\xampp\htdocs\quiz\system\Debug\Exceptions.php(147): Config\Exceptions->handler(500, Object(ErrorException))
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+【Previous Exception】
+ErrorException
+include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Con...')
+#4 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\quiz\app\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers...')
+#7 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers...')
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(900): class_exists('\\App\\Controller...', true)
+#11 C:\xampp\htdocs\quiz\system\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+#12 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-20 19:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:50:56 --> include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\vendor\\composer\\ClassLoader.php', 576)
+ 2 FCPATH\vendor\composer\ClassLoader.php(576): include()
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php')
+ 4 APPPATH\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Controller')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 7 APPPATH\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\BaseController')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\vendor\\composer/../../app/Controllers/AdminController.php')
+10 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\AdminController')
+11 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+12 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 19:50:56 --> Uncaught ErrorException: include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Debug/ExceptionHandler.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php:576
+Stack trace:
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Config\Exceptions.php(102): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Deb...')
+#4 C:\xampp\htdocs\quiz\system\Debug\Exceptions.php(147): Config\Exceptions->handler(500, Object(ErrorException))
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+【Previous Exception】
+ErrorException
+include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Con...')
+#4 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\quiz\app\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers...')
+#7 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers...')
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(900): class_exists('\\App\\Controller...', true)
+#11 C:\xampp\htdocs\quiz\system\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+#12 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-20 19:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:58:55 --> include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\vendor\\composer\\ClassLoader.php', 576)
+ 2 FCPATH\vendor\composer\ClassLoader.php(576): include()
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php')
+ 4 APPPATH\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Controller')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 8 APPPATH\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+10 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+11 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+12 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+13 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+14 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 19:58:55 --> Uncaught ErrorException: include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Debug/ExceptionHandler.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php:576
+Stack trace:
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Config\Exceptions.php(102): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Deb...')
+#4 C:\xampp\htdocs\quiz\system\Debug\Exceptions.php(147): Config\Exceptions->handler(500, Object(ErrorException))
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+【Previous Exception】
+ErrorException
+include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Con...')
+#4 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 C:\xampp\htdocs\quiz\app\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#11 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#12 C:\xampp\htdocs\quiz\system\CodeIgniter.php(900): class_exists('\\App\\Controller...', true)
+#13 C:\xampp\htdocs\quiz\system\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+#14 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#16 {main}
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-20 19:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:58:58 --> include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\vendor\\composer\\ClassLoader.php', 576)
+ 2 FCPATH\vendor\composer\ClassLoader.php(576): include()
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php')
+ 4 APPPATH\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Controller')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 8 APPPATH\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+10 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+11 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+12 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+13 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+14 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 19:58:58 --> Uncaught ErrorException: include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Debug/ExceptionHandler.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php:576
+Stack trace:
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Config\Exceptions.php(102): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Deb...')
+#4 C:\xampp\htdocs\quiz\system\Debug\Exceptions.php(147): Config\Exceptions->handler(500, Object(ErrorException))
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+【Previous Exception】
+ErrorException
+include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Con...')
+#4 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 C:\xampp\htdocs\quiz\app\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#11 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#12 C:\xampp\htdocs\quiz\system\CodeIgniter.php(900): class_exists('\\App\\Controller...', true)
+#13 C:\xampp\htdocs\quiz\system\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+#14 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#16 {main}
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-20 19:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-20 19:59:00 --> include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\quiz\\vendor\\composer\\ClassLoader.php', 576)
+ 2 FCPATH\vendor\composer\ClassLoader.php(576): include()
+ 3 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\quiz\\app\\vendor\\composer/../../system/Controller.php')
+ 4 APPPATH\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Controller')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\BaseController.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 8 APPPATH\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+10 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\quiz\\app\\Controllers\\AdminController.php')
+11 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+12 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+13 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+14 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 19:59:00 --> Uncaught ErrorException: include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Debug/ExceptionHandler.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php:576
+Stack trace:
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Config\Exceptions.php(102): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Deb...')
+#4 C:\xampp\htdocs\quiz\system\Debug\Exceptions.php(147): Config\Exceptions->handler(500, Object(ErrorException))
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+【Previous Exception】
+ErrorException
+include(C:\xampp\htdocs\quiz\app\vendor\composer/../../system/Controller.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 576)
+#1 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(576): include()
+#2 C:\xampp\htdocs\quiz\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\quiz\app\Controllers\BaseController.php(22): Composer\Autoload\ClassLoader->loadClass('CodeIgniter\\Con...')
+#4 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 C:\xampp\htdocs\quiz\app\Controllers\AdminController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\quiz\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#11 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#12 C:\xampp\htdocs\quiz\system\CodeIgniter.php(900): class_exists('\\App\\Controller...', true)
+#13 C:\xampp\htdocs\quiz\system\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+#14 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#16 {main}
+in FCPATH\vendor\composer\ClassLoader.php on line 576.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

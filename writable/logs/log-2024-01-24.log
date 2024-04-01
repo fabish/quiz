@@ -1,0 +1,542 @@
+ERROR - 2024-01-24 15:17:22 --> mysqli_sql_exception: Invalid default value for 'update_ad' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(39): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 15:18:13 --> mysqli_sql_exception: Invalid default value for 'update_ad' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(39): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 15:18:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(11) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(104): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 15:19:43 --> mysqli_sql_exception: Table 'persons' already exists in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(39): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 15:28:28 --> mysqli_sql_exception: Duplicate entry '2' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `le...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `le...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `le...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `le...', Array, false)
+#4 C:\xampp\htdocs\quiz\app\Database\Seeds\LevelSeeder.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\LevelSeeder->run()
+#6 C:\xampp\htdocs\quiz\app\Database\Seeds\TestSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\TestSeeder->run()
+#8 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#9 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#10 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#11 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2024-01-24 15:29:05 --> mysqli_sql_exception: Duplicate entry '7121634970' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\quiz\app\Database\Seeds\PersonSeeder.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\PersonSeeder->run()
+#6 C:\xampp\htdocs\quiz\app\Database\Seeds\TestSeeder.php(12): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\TestSeeder->run()
+#8 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#9 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#10 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#11 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+INFO - 2024-01-24 15:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 16:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 16:08:57 --> Undefined array key "username"
+in APPPATH\Controllers\RegisterController.php on line 42.
+ 1 APPPATH\Controllers\RegisterController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\RegisterController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 16:14:47 --> Undefined array key "username"
+in APPPATH\Controllers\RegisterController.php on line 42.
+ 1 APPPATH\Controllers\RegisterController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\RegisterController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 16:15:07 --> mysqli_sql_exception: Duplicate entry '7121165751' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(49): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-24 16:15:07 --> Duplicate entry '7121165751' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`pkPhone`, `firstName`, `lastName`) VALUES (:pkPhone:, :firstName:, :lastName:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(49): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-24 16:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 16:16:14 --> Undefined variable $user
+in APPPATH\Controllers\RegisterController.php on line 50.
+ 1 APPPATH\Controllers\RegisterController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\quiz\\app\\Controllers\\RegisterController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 16:16:29 --> mysqli_sql_exception: Duplicate entry '7121165751' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(49): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-24 16:16:29 --> Duplicate entry '7121165751' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`pkPhone`, `firstName`, `lastName`) VALUES (:pkPhone:, :firstName:, :lastName:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(49): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-24 16:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 16:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 16:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-24 16:17:19 --> mysqli_sql_exception: Duplicate entry '7121165751' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(57): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-24 16:17:19 --> Duplicate entry '7121165751' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`pkPhone`, `name`, `firstName`, `lastName`) VALUES (:pkPhone:, :name:, :firstName:, :lastName:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-24 16:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 16:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-24 16:18:12 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(57): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-24 16:18:12 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`pkPhone`, `name`, `firstName`, `lastName`) VALUES (:pkPhone:, :name:, :firstName:, :lastName:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-24 16:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 16:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 16:26:37 --> Call to undefined function form_error()
+in APPPATH\Views\templates\login\content.php on line 24.
+ 1 APPPATH\Views\welcome_message.php(20): include()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 16:27:23 --> Call to undefined function form_error()
+in APPPATH\Views\templates\login\content.php on line 24.
+ 1 APPPATH\Views\welcome_message.php(20): include()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\quiz\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-24 16:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-24 16:43:19 --> mysqli_sql_exception: Duplicate entry '794945' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\quiz\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\quiz\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\quiz\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\quiz\app\Controllers\RegisterController.php(57): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\quiz\system\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+#9 C:\xampp\htdocs\quiz\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\quiz\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\quiz\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-24 16:43:19 --> Duplicate entry '794945' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`pkPhone`, `name`, `firstName`, `lastName`) VALUES (:pkPhone:, :name:, :firstName:, :lastName:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegisterController.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RegisterController->registerAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 19:04:44 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `le...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `le...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `le...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `le...', Array, false)
+#4 C:\xampp\htdocs\quiz\app\Database\Seeds\LevelSeeder.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\LevelSeeder->run()
+#6 C:\xampp\htdocs\quiz\app\Database\Seeds\TestSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\TestSeeder->run()
+#8 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#9 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#10 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#11 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2024-01-24 19:08:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':level:)' at line 1 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO lev...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO lev...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO lev...')
+#3 C:\xampp\htdocs\quiz\app\Database\Seeds\LevelSeeder.php(22): CodeIgniter\Database\BaseConnection->query('INSERT INTO lev...', Array)
+#4 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\LevelSeeder->run()
+#5 C:\xampp\htdocs\quiz\app\Database\Seeds\TestSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\TestSeeder->run()
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:10:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':pkLevel:, :level:)' at line 1 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO lev...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO lev...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO lev...')
+#3 C:\xampp\htdocs\quiz\app\Database\Seeds\LevelSeeder.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO lev...', Array)
+#4 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\LevelSeeder->run()
+#5 C:\xampp\htdocs\quiz\app\Database\Seeds\TestSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\TestSeeder->run()
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:10:29 --> mysqli_sql_exception: Duplicate entry '3' for key 'PRIMARY' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `le...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `le...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `le...')
+#3 C:\xampp\htdocs\quiz\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `le...', Array, false)
+#4 C:\xampp\htdocs\quiz\app\Database\Seeds\LevelSeeder.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\LevelSeeder->run()
+#6 C:\xampp\htdocs\quiz\app\Database\Seeds\TestSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\quiz\system\Database\Seeder.php(146): App\Database\Seeds\TestSeeder->run()
+#8 C:\xampp\htdocs\quiz\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#9 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#10 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#11 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2024-01-24 19:23:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(11) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-24-191841_User.php(50): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:24:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(11) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-24-191841_User.php(50): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:25:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(11) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-24-191841_User.php(50): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:27:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(20) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-24-191841_User.php(50): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:30:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`fkPhone` bigint(11) UNSIGNED NOT NULL,
+	`password` VARCH...' at line 2 in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(101): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:35:16 --> mysqli_sql_exception: Table 'persons' already exists in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(38): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:36:12 --> mysqli_sql_exception: Table 'persons' already exists in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(38): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:38:50 --> mysqli_sql_exception: Can't create table `quiz2`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(102): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:40:27 --> mysqli_sql_exception: Table 'persons' already exists in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(39): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:45:27 --> mysqli_sql_exception: Invalid default value for 'update_ad' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(40): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:49:04 --> mysqli_sql_exception: Invalid default value for 'update_ad' in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(41): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:50:50 --> mysqli_sql_exception: Can't create table `quiz2`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(106): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-24 19:52:43 --> mysqli_sql_exception: Table 'persons' already exists in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(41): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-01-24 19:58:15 --> mysqli_sql_exception: Table 'persons' already exists in C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\quiz\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\quiz\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\quiz\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\quiz\app\Database\Migrations\2024-01-21-173741_Person.php(41): CodeIgniter\Database\Forge->createTable('persons')
+#5 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(873): App\Database\Migrations\Person->up()
+#6 C:\xampp\htdocs\quiz\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\quiz\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\quiz\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\quiz\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\quiz\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\quiz\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\quiz\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}

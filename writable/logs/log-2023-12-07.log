@@ -1,0 +1,432 @@
+INFO - 2023-12-07 00:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 00:32:45 --> syntax error, unexpected single-quoted string "/", expecting ")"
+in APPPATH\Controllers\AdminController.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdocs\\integrador\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 00:33:52 --> syntax error, unexpected single-quoted string "./admin", expecting ")"
+in APPPATH\Controllers\AdminController.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdocs\\integrador\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 00:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 00:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 00:41:47 --> Undefined property: stdClass::$username
+in APPPATH\Views\admin\AdminView.php on line 97.
+ 1 APPPATH\Views\admin\AdminView.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\AdminView.php', 97)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\AdminView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/AdminVIew', [], true)
+ 5 APPPATH\Controllers\AdminController.php(23): view('admin/AdminVIew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 00:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 01:28:08 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\AdminController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdocs\\integrador\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 01:29:32 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\AdminController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdocs\\integrador\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 01:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 01:32:25 --> Undefined variable $tittle
+in APPPATH\Views\admin\Actualizar.php on line 4.
+ 1 APPPATH\Views\admin\Actualizar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(51): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('55894781')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 01:32:54 --> Undefined variable $tittle
+in APPPATH\Views\admin\Actualizar.php on line 4.
+ 1 APPPATH\Views\admin\Actualizar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(51): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('55894781')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 01:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 01:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 01:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 01:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 01:42:44 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 01:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 01:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 01:43:09 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 01:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 01:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 01:43:56 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 01:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 01:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 01:46:04 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 01:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 03:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 03:44:18 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 03:44:47 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 03:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 03:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 03:55:43 --> Undefined variable $pkname
+in APPPATH\Views\admin\Actualizar.php on line 67.
+ 1 APPPATH\Views\admin\Actualizar.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pkname', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('55894781')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 03:56:00 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 03:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 03:56:22 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(54): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 03:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 04:10:17 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(69): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 04:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 04:10:50 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(69): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 04:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 04:28:20 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(69): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 04:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 04:48:28 --> Undefined variable $mensaje
+in APPPATH\Views\user\UserView.php on line 126.
+ 1 APPPATH\Views\user\UserView.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\user\\UserView.php', 126)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\user\\UserView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('user/UserView', [], true)
+ 5 APPPATH\Controllers\UserController.php(19): view('user/UserView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 04:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 04:51:01 --> Undefined array key "pkPhone"
+in APPPATH\Controllers\AdminController.php on line 28.
+ 1 APPPATH\Controllers\AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pkPhone"', 'C:\\xampp2\\htdocs\\integrador\\app\\Controllers\\AdminController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->crear()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 04:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 04:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 06:06:58 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Home.php on line 25.
+ 1 APPPATH\Controllers\Home.php(25): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 06:09:04 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Home.php on line 25.
+ 1 APPPATH\Controllers\Home.php(25): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 13:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 13:07:22 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(69): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 13:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 13:17:14 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(69): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 13:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 13:22:10 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(69): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 13:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:29:28 --> Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\AdminController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 14:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:29:41 --> Undefined variable $mensaje
+in APPPATH\Views\admin\AdminView.php on line 116.
+ 1 APPPATH\Views\admin\AdminView.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\AdminView.php', 116)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\AdminView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/AdminVIew', [], true)
+ 5 APPPATH\Controllers\AdminController.php(19): view('admin/AdminVIew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 14:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 15:29:29 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(65): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 16:37:48 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(65): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 16:38:05 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(65): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 16:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 16:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 16:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 16:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 16:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 16:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 16:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 16:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 16:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 16:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-07 17:03:07 --> mysqli_sql_exception: Duplicate entry '7121165758' for key 'PRIMARY' in C:\xampp2\htdocs\integrador\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp2\htdocs\integrador\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp2\htdocs\integrador\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp2\htdocs\integrador\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp2\htdocs\integrador\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp2\htdocs\integrador\app\Models\CustomerModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\integrador\app\Controllers\AdminController.php(31): App\Models\CustomerModel->insertar(Array)
+#6 C:\xampp2\htdocs\integrador\system\CodeIgniter.php(942): App\Controllers\AdminController->crear()
+#7 C:\xampp2\htdocs\integrador\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp2\htdocs\integrador\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\integrador\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-07 17:03:07 --> Duplicate entry '7121165758' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`pkPhone`, `name`, `firstName`, `lastName`, `level`) VALUES (:pkPhone:, :name:, :firstName:, :lastName:, :level:)', [...], false)
+ 2 APPPATH\Models\CustomerModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\AdminController.php(31): App\Models\CustomerModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 17:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 17:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 17:04:08 --> Undefined array key 0
+in APPPATH\Views\admin\Actualizar.php on line 2.
+ 1 APPPATH\Views\admin\Actualizar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\integrador\\app\\Views\\admin\\Actualizar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/Actualizar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(65): view('admin/Actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->obtenerUserName('resources', 'css', 'styleTemplate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-07 17:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 17:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
