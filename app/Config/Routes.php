@@ -8,6 +8,11 @@ use CodeIgniter\Router\RouteCollection;
 
 
 $routes->get('/', 'Home::index');
+$routes->get('api', 'Api::index');
+$routes->post('api/insert-data', 'Api::insertData');
+$routes->get('api/get-user/(:num)', 'Api::getUser/$1');
+$routes->get('api/get-customer/(:num)', 'Api::getCustomer/$1');
+$routes->post('api/login', 'Api::login');
 
 $routes->group('user', function($routes){
     $routes->get('register', 'RegisterController::index', ['as' => 'register']);
@@ -28,7 +33,7 @@ $routes->group('type', function($routes){
     $routes->get('obtenerUserNameUser/(:any)','AdminController::obtenerUserNameUser/$1');
     $routes->get('eliminarUser/(:any)','AdminController::eliminarUser/$1');
     $routes->post('crearUser','AdminController::crearUser');
-    $routes->post('actualizarUser','AdmintController::actualizarUser');
+    $routes->post('actualizarUser','AdminController::actualizarUser');
 
     $routes->post('demo-pdf', 'AdminController::demoPDF');
     $routes->get('generar-xml', 'AdminController::generarXML', ['as' =>'generar-xml', 'filter' => 'admin']);
